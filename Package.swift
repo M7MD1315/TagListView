@@ -11,6 +11,5 @@ let package = Package(name: "TagListView",
                           .package(url: "https://github.com/M7MD1315/TagListView.git", from: "1.0.0")
                       ],
                       targets: [.target(name: "TagListView",
-                                        dependencies: ["TagListView"],
                                         path: "TagListView")],
                       swiftLanguageVersions: [.v5])
