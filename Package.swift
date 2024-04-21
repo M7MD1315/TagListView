@@ -8,7 +8,7 @@ let package = Package(name: "TagListView",
                       products: [.library(name: "TagListView",
                                           targets: ["TagListView"])],
                       dependencies: [
-                          .package(url: "https://github.com/M7MD1315/TagListView.git", from: "1.0.0")
+                          .package(url: "https://github.com/M7MD1315/TagListView.git", from: "master")
                       ],
                       targets: [.target(name: "TagListView",
                                         path: "TagListView")],
