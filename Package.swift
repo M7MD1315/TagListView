@@ -7,6 +7,10 @@ let package = Package(name: "TagListView",
                       platforms: [.iOS(.v8)],
                       products: [.library(name: "TagListView",
                                           targets: ["TagListView"])],
+                      dependencies: [
+                          .package(url: "https://github.com/M7MD1315/TagListView.git", from: "1.0.0")
+                      ],
                       targets: [.target(name: "TagListView",
+                                        dependencies: ["TagListView"],
                                         path: "TagListView")],
                       swiftLanguageVersions: [.v5])
